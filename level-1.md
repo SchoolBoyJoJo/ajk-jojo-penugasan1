@@ -7,3 +7,7 @@ Pertama kita akan membuat folder pada local mechine kita, sebaiknya nama folder 
 # 2. Membuat branch
 
 Kita akan membuat branch, dimana branch default kita saat ini ialah master dan kita akan membuat branch development. Dari branch development kita akan membuat branch featureA dan featureB
+
+<img width="1115" alt="Screenshot 2024-02-18 at 00 24 02" src="https://github.com/SchoolBoyJoJo/ajk-jojo-penugasan1/assets/142652941/438e4b02-56f8-4e9f-95e0-eb70f8b2f093">
+
+Seperti yang dapat kita lihat di screenshot diatas kita menggunakan perintah git branch <nama_branch> untuk membuat branch baru
