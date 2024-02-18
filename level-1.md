@@ -17,3 +17,7 @@ Seperti yang dapat kita lihat di screenshot diatas kita menggunakan perintah 'gi
 <img width="1118" alt="Screenshot 2024-02-18 at 12 37 47" src="https://github.com/SchoolBoyJoJo/ajk-jojo-penugasan1/assets/142652941/84d0d57b-3fe9-43ed-ab69-ef1cd48a3cde">
 
 Pada screenshot diatas ialah implementasi dari 'git push' git push sendiri bermanfaat untuk melakukan upload pada perubahan yang sudah kita lakukan pada local machine kita. Pada kasus ini kita melakukan upload pada GitHuh, untuk melakukan push ini kita memerlukan remote repo pada github di dalam gitbash local kita dimana kita sudah melakukan itu pada saat membuat repository dengan command 'git remote add'
+
+<img width="1115" alt="Screenshot 2024-02-18 at 00 18 25" src="https://github.com/SchoolBoyJoJo/ajk-jojo-penugasan1/assets/142652941/d7b8c7a0-715e-4a48-bb77-ba064af8a3fa">
+
+Pada screenshot diatas ialah implementasi dari 'git pull' command ini berfungsi untuk mengambil perubahan yang telah terjadi pada repo origin kita (perubahan pada github) jadi kondisinya repo origin memiliki commit lebih banyak dari pada repo local machine kita, jika kita melakukan git pull maka semua perubahan yang sudah di commited pada repo origin akan diterapkan juga pada repo local kita
