@@ -67,6 +67,10 @@ Jika ingin membandingkan perbedaan file yang berada di staging area dan repo mak
 
 Pada screenshot diatas kita melakukan merge pada branch featureA dengan development, tentunya diatas kita telah membuat branch development, featureA, featureB. Dimana struktur nya branch master direct-path ke branch development; branch development direct-path ke branch featureA dan featureB. Pada screenshot tujuan kita ialah melakukan merge pada branch featureA ke development dimana jika kita ingin melakukan itu kita perlu berada di branch development setelah itu kita bisa menjalankan command 'git merge featureA'. Seperti yang kita lihat pesan yang diberikan pada gitbash ialah "Fast-forward" dimana hal ini akan terjadi jika kita melakukan merge pada branch yang memiliki jalur direct-path
 
+<img width="1125" alt="Screenshot 2024-02-18 at 00 22 05" src="https://github.com/arsitektur-jaringan-komputer/modul-git/assets/142652941/71a56bf2-bf12-4366-a89e-b71b57e74f7b">
+
+Screenshot diatas ialah command untuk menunjukkan graph yang ada pada repo kita, karna command nya sangat panjang saya menggunakan command alias agar mempermudah pemanggilannya, karna graph ini sangatlah penting khusus nya dalam men-tracking repo kita
+
 # 4. Menangani conflict pada saat melakukan merge
 
 <img width="1440" alt="Screenshot 2024-02-18 at 01 12 54" src="https://github.com/arsitektur-jaringan-komputer/modul-git/assets/142652941/ee5a808f-90ee-4857-84ac-02ab7ab85e82">
@@ -82,3 +86,11 @@ Pada graph itu dapat kita lihat, pada commit id ed5783 kita telah melakukan merg
 <img width="1139" alt="Screenshot 2024-02-18 at 01 30 44" src="https://github.com/arsitektur-jaringan-komputer/modul-git/assets/142652941/ec3610c3-d53b-4b46-89bf-472c57fda387">
 
 Pada screenshot diatas kita bisa lihat, bahwa kita melakukan recursive merge, serupa dengan kasus conflict sebelumnya ini terjadi karna kita melakukan merge pada branch yang tidak direct-path
+
+# Kondisi Git Graph pada akhir penugasan
+
+<img width="1120" alt="Screenshot 2024-02-18 at 19 43 54" src="https://github.com/arsitektur-jaringan-komputer/modul-git/assets/142652941/731dea74-af48-482d-a747-324e99f31629">
+
+# Kendala dan kesulitan
+- Gabisa move on dari lani, lina, lana
+- Pertama-tama menggunakan git memang sedikit sulit dan rumit namun lama kelamaan terbiasa dan nyaman menggunakan git dikarnakan fungsinya dalam mengelola file system/repo sangat efesien
