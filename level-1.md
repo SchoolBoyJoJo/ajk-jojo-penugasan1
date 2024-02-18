@@ -21,3 +21,8 @@ Pada screenshot diatas ialah implementasi dari 'git push' git push sendiri berma
 <img width="1115" alt="Screenshot 2024-02-18 at 00 18 25" src="https://github.com/SchoolBoyJoJo/ajk-jojo-penugasan1/assets/142652941/d7b8c7a0-715e-4a48-bb77-ba064af8a3fa">
 
 Pada screenshot diatas ialah implementasi dari 'git pull' command ini berfungsi untuk mengambil perubahan yang telah terjadi pada repo origin kita (perubahan pada github) jadi kondisinya repo origin memiliki commit lebih banyak dari pada repo local machine kita, jika kita melakukan git pull maka semua perubahan yang sudah di commited pada repo origin akan diterapkan juga pada repo local kita
+
+
+<img width="1134" alt="Screenshot 2024-02-18 at 13 19 17" src="https://github.com/SchoolBoyJoJo/ajk-jojo-penugasan1/assets/142652941/de34512e-af9a-4e7d-8362-980fbf72242e">
+
+Pada screenshot diatas bisa kita lihat kita memiliki 3 branch yaitu development, master, lana. Anggap saja kasusnya kita sedang sibuk dalam mengerjakan branch lana namun team kita atau orang lain butuh bantuan kita segera pada branch development namun pengerjaan kita pada branch lana belum selesai sehingga kita belum ingin untuk melakukan commit, tentu saja jika kita belum melakukan commit kita tidak bisa pindah branch. Seperti pada screenshot ketika kita mencoba 'git checkout development' terdapat pesan error dan kita diminta untuk melakukan stash atau commit, disini lah 'git stash' memiliki peran
