@@ -10,6 +10,10 @@ Kita akan membuat branch, dimana branch default kita saat ini ialah master dan k
 
 <img width="1115" alt="Screenshot 2024-02-18 at 00 24 02" src="https://github.com/SchoolBoyJoJo/ajk-jojo-penugasan1/assets/142652941/438e4b02-56f8-4e9f-95e0-eb70f8b2f093">
 
-Seperti yang dapat kita lihat di screenshot diatas kita menggunakan perintah git branch <nama_branch> untuk membuat branch baru
+Seperti yang dapat kita lihat di screenshot diatas kita menggunakan perintah 'git branch <nama_branch>' untuk membuat branch baru
 
 # 3. Implementasi berbagai command git
+
+<img width="1118" alt="Screenshot 2024-02-18 at 12 37 47" src="https://github.com/SchoolBoyJoJo/ajk-jojo-penugasan1/assets/142652941/84d0d57b-3fe9-43ed-ab69-ef1cd48a3cde">
+
+Pada screenshot diatas ialah implementasi dari 'git push' git push sendiri bermanfaat untuk melakukan upload pada perubahan yang sudah kita lakukan pada local machine kita. Pada kasus ini kita melakukan upload pada GitHuh, untuk melakukan push ini kita memerlukan remote repo pada github di dalam gitbash local kita dimana kita sudah melakukan itu pada saat membuat repository dengan command 'git remote add'
